@@ -1,0 +1,21 @@
+{
+  "name": "orbit-playroom",
+  "version": "0.0.0",
+  "description": "Playroom integration for Kiwi.com's Orbit React components.",
+  "main": "index.js",
+  "repository": "https://github.com/kiwicom/orbit-playroom.git",
+  "author": "Kiwi.com",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "playroom start",
+    "build": "playroom build"
+  },
+  "dependencies": {
+    "@kiwicom/orbit-components": "^0.85.2",
+    "playroom": "^0.18.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "4.4.1"
+  }
+}
